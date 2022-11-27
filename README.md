@@ -66,7 +66,7 @@ tc:
 
 flow_dissector:
 ```
-
+**IMPORTANT**: Remember to set the env variable **RUST_LOG=info** before running the tool to have runtime informations of what it's going on!
 
 ## Why support only containerd?
 Containerd is becoming the standard de facto for containers runtime. [AWS EKS](https://docs.aws.amazon.com/eks/latest/userguide/dockershim-deprecation.html) is for example moving to it as the default runtime.
