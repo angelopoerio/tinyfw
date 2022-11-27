@@ -80,3 +80,7 @@ The author of this project is **Angelo Poerio <angelo.poerio@gmail.com>**
 Useful links:
 * [Aya](https://aya-rs.dev/)
 * [eBPF](https://ebpf.io/)
+
+TODO:
+* Better way to correlate veth(s) interfaces to containers
+* Make network policies configurable and not hardcoded
