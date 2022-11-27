@@ -1,0 +1,2 @@
+[workspace]
+members = ["tinyfw", "tinyfw-common", "xtask"]
