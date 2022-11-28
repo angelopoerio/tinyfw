@@ -96,7 +96,7 @@ async fn main() -> Result<(), anyhow::Error> {
         let _resp = containers_client
             .list(req_list)
             .await
-            .expect("Failed to create container");
+            .expect("Failed to list containers");
         let message = _resp.get_ref();
 
         if message.containers.len() > 0 {
